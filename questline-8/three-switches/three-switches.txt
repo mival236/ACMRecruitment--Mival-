@@ -1,0 +1,15 @@
+Label the switches A, B, C .
+
+Turn A ON for about 5 minutes.
+
+After 5 minutes, turn A OFF and immediately turn B ON.
+
+Now walk into the room with the bulb .
+
+Observe :
+
+If the bulb is lit, it’s controlled by B (because B is the one you left on).
+
+If the bulb is unlit but the bulb  is warm/hot, it’s controlled by A (it was on long enough to heat up, then you turned it off).
+
+If the bulb is unlit and cold, it’s controlled by C (you never turned C on).

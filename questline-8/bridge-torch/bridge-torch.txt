@@ -1,0 +1,9 @@
+1 and 2 cross → takes 2 minutes. (Total = 2)
+
+1 returns with the torch → takes 1 minute. (Total = 2 + 1 = 3)
+
+7 and 10 cross together → takes 10 minutes. (Total = 3 + 10 = 13)
+
+2 returns with the torch → takes 2 minutes. (Total = 13 + 2 = 15)
+
+1 and 2 cross → takes 2 minutes. (Total = 15 + 2 = 17)
