@@ -1,4 +1,4 @@
-# ACMRecruitment--Mival-
-Hehe..
-It's me Mival
-updated
+##skills
+python
+git
+problem-solving
