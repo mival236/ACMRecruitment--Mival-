@@ -1,0 +1,31 @@
+def second_largest(arr):
+    if len(arr) < 2:
+        return None  # Not enough elements
+    
+    largest = second = float('-inf')
+    for num in arr:
+        if num > largest:
+            second = largest
+            largest = num
+        elif largest > num > second:  # ensure num is strictly less than largest
+            second = num
+    
+    return second if second != float('-inf') else None
+
+
+# Input
+n = int(input("Enter number of elements: "))
+arr = list(map(int, input("Enter numbers: ").split()))
+
+result = second_largest(arr)
+if result is None:
+    print("No valid second largest number.")
+else:
+    print("Second largest:", result)
+#The bug
+elif num > second:
+    second = num
+does not check if num is smaller than largest.
+#fix
+elif largest > num > second:
+    second = num
