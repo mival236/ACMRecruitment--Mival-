@@ -1,0 +1,7 @@
+1. **Iterative Method**
+   - Use a loop to build the reversed string character by character.
+   - Works without using built-in reverse functions.
+
+2. **Recursive Method**
+   - Base case: if the string is empty or length 1, return it.
+   - Recursive case: reverse the substring from the second character onward, then append the first character.
